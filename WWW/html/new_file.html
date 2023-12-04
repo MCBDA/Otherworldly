@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>新手村</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<button class="btn north">北边</button>
+			<div class="middle">
+				<button class="btn west">西边</button>
+				<div class="map">
+					<h3>显示信息</h3>
+				</div>
+				<button class="btn east">东边</button>
+			</div>
+			<button class="btn south">南边</button>
+
+			<!-- 地图信息 -->
+			<div class="map-info">
+				<h4>地图数据</h4>
+				<p></p>
+			</div>
+		</div>
+
+		<!-- 用户角色信息 -->
+		<div class="character-info">
+			<h4>角色信息</h4>
+			<p>等级: <span id="level">1</span></p>
+			<p>金币: <span id="gold">23</span></p>
+			<p>血条:
+			<div class="progress">
+				<!-- <div class="progress-bar health" style="width:<?php echo ($character_health / $character_max_health) * 100; ?>%"></div> -->
+				<div class="progress-bar health" style="width:80%"></div>
+			</div>
+			</p>
+			<p>蓝条:
+			<div class="progress">
+				<!-- <div class="progress-bar mana" style="width:<?php echo ($character_mana / $character_max_mana) * 100; ?>%"></div> -->
+				<div class="progress-bar mana" style="width:100%"></div>
+			</div>
+			</p>
+			<p>经验值:
+			<div class="progress">
+				<!-- <div class="progress-bar exp" style="width:<?php echo ($character_exp / $character_max_exp) * 100; ?>%"></div> -->
+				<div class="progress-bar exp" style="width:60%"></div>
+			</div>
+			</p>
+
+			<!-- 操作菜单 -->
+			<div class="menu">
+				<h4>操作菜单</h4>
+				<button id="inventory-button" class="menu-button">背包</button>
+				<button id="skills-button" class="menu-button">技能</button>
+				<br />
+				<button id="quests-button" class="menu-button">任务</button>
+				<button id="shop-button" class="menu-button">商店</button>
+			</div>
+		</div>
+
+	</body>
+</html>

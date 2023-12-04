@@ -1,0 +1,181 @@
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.mytitle {
+	font-family: Lato, sans-serif;
+	color: #b72c2c;
+	text-align: center;
+	margin-left: -150px;
+	margin-bottom: 20px;
+}
+
+.main {
+	font-family: Lato, sans-serif;
+	background-color: #f5f5f5;
+	color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	background-color: #fefefe;
+	padding: 1em;
+	border-radius: 0.5em;
+	box-shadow: 1px 1px 18px 2px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.map {
+	width: 400px;
+	height: 300px;
+	text-align: center;
+}
+
+.map,
+.map-info,
+.character-info {
+	background-color: #fff;
+	border-radius: 0.5em;
+	padding: 1em;
+	margin: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.12);
+}
+
+.btn {
+	border: none;
+	border-radius: 0.5em;
+	padding: 1em 1em;
+	color: #fefefe;
+	background-color: #5e98e5;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #02ad5b;
+}
+
+.middle {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.middle>.btn {
+	margin: 0;
+}
+
+.north,
+.south {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/* 角色信息样式 */
+.progress {
+	background-color: #f3f3f3;
+	border-radius: 5px;
+	width: 200px;
+	height: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.progress-bar {
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.health {
+	background-color: #ff4b5c;
+}
+
+.mana {
+	background-color: #4b98ff;
+}
+
+.exp {
+	background-color: #02ad5b;
+}
+
+/* 操作菜单样式 */
+.menu {
+	justify-content: space-between;
+}
+
+.menu-button {
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	background-color: #3f5a6d;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	margin: 5px;
+}
+
+.menu-button:hover {
+	background-color: #4b98ff;
+}
+
+/*NPC和怪物的样式*/
+.monster-container {
+	margin: 0.2em 0;
+	background-color: #efeeeb;
+	padding: 1em;
+	border-radius: 4px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.monster-link {
+	display: inline-block;
+	padding: 0.5em 1em;
+	background-color: #4a9cff;
+	color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	margin-bottom: 1em;
+	margin: 0 10px;
+	transition: background-color 0.6s ease;
+}
+
+.npc-container {
+	margin: 1em 0;
+	background-color: #fff5cc;
+	padding: 1em;
+	border-radius: 4px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	
+}
+
+.npc-link {
+	margin-bottom: 1em;
+	padding: 0.5em 1em;
+	background-color: #59a14f;
+	color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	margin: 0 10px;
+	transition: background-color 0.6s ease;
+}
+
+h4 {
+	padding: 0px;
+	margin: 0px;
+}
+
+.monster-link:hover {
+	background-color: #ef4f4fb5;
+}
+
+.npc-link:hover {
+	background-color: #ef4f4fb5;
+}

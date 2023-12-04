@@ -10,9 +10,8 @@ require_once'lianjie.php';
 			// 检查连接是否成功
 			if ($this->conn->connect_error) {
 			  die("数据库连接失败: " . $this->conn->connect_error);
-			} else {
-			  echo "Connection successful!";
 			}
+			 
 		  }
 		  public function get_conn() {
 			// 返回数据库连接对象

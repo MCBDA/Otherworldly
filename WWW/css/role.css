@@ -1,0 +1,41 @@
+/* 这里可以添加一些 CSS 样式 */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.book {
+    width: 300px;
+    height: 400px;
+    background-image: url("../image/wallpaper_cliff_splitscreen_B.jpg"); /* 这里你需要替换成你的图片路径 */
+    background-size: cover;
+    cursor: pointer;
+    display: block; /* 默认显示书的图片 */
+}
+.form {
+    display: block;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 5px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.form input[type="text"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.form input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
